@@ -1,0 +1,22 @@
+<!-- res/values/strings.xml -->
+<resources>
+    <string name="app_name">Reclamation</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_priority">Priority (Low, Medium, High)</string>
+    <string name="hint_status">Status (1 for Open, 2 for In Progress, 3 for Closed)</string>
+    <string name="button_save_complaint">Save Complaint</string>
+    <string name="toast_fill_all_fields">Please fill in all fields</string>
+    <string name="toast_complaint_created">Complaint created successfully</string>
+    <!-- res/values/strings.xml -->
+        <string name="complaint_question">What is your complaint?</string>
+        <string name="avatar_icon_desc">User avatar icon</string>
+        <string name="chat_icon_desc">Chat icon</string>
+        <string name="ask_for_description">Please describe the issue in details</string>
+        <string name="ask_for_title">Title of your complaint</string>
+        <string name="alerts_icon_desc">Alerts icon</string>
+        <string name="suitcase_icon_desc">Suitcase icon</string>
+        <string name="home_icon_desc">Home icon</string>
+        <string name="global_connection_icon_desc">Global connection icon</string>
+        <string name="job_offer_icon_desc">Job offer icon</string>
+</resources>
