@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="4dp">
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Retour"
+            android:layout_gravity="start"
+            android:onClick="goBack"
+            android:backgroundTint="@color/primaryColor"
+            android:textColor="@color/white"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:text="Créer un Entretien"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- ID Proposition -->
+        <EditText
+            android:id="@+id/editTextText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID Proposition"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:inputType="text" />
+
+        <!-- Date -->
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextText5"
+            android:layout_marginTop="16dp" />
+
+        <!-- Lieu -->
+        <EditText
+            android:id="@+id/editTextText12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lieu"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:inputType="text"
+            android:layout_marginTop="12dp" />
+
+        <!-- Numero de Salle -->
+        <EditText
+            android:id="@+id/editTextText10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Numéro de Salle"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:inputType="number"
+            android:layout_marginTop="12dp" />
+
+        <!-- Nom du Recruteur -->
+        <EditText
+            android:id="@+id/editTextText9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nom du Recruteur"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:inputType="text"
+            android:layout_marginTop="12dp" />
+
+        <!-- Confirmation RadioButton -->
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Confirmer"
+            android:textColor="#FFFFFF" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/buttonListeEntretiens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enregistrer l'entretien"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/primaryColor"
+            android:layout_marginTop="20dp"
+            android:padding="12dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TuniLink</string>
+        <string name="nom_recruteur" translatable="false">Nom du recruteur :</string>
+        <string name="lieu" translatable="false">Lieu :</string>
+        <string name="numero_salle" translatable="false">Numéro de la salle :</string>
+        <string name="date" translatable="false">Date :</string>
+        <string name="proposition" translatable="false">Proposition:</string>
+        <string name="statut_confirmation" translatable="false">Statut de confirmation :</string>
+
+        <string name="hint_id_proposition">ID Proposition</string>
+        <string name="hint_date">Date</string>
+        <string name="hint_lieu">Lieu</string>
+        <string name="hint_numero_salle">Numéro Salle</string>
+        <string name="hint_nom_recruteur">Nom du Recruteur</string>
+        <string name="button_save_changes">Sauvegarder les modifications</string>
+
+</resources>
